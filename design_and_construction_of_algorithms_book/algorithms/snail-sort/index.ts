@@ -1,10 +1,10 @@
-exports.snail = (matrix) => {
+exports.snail_sort = (matrix: number[][]): number[] => {
   if (!matrix || matrix.length ===0) return [];
-  const result = [];
-  let top = 0;
-  let bottom = matrix.length - 1;
-  let left = 0;
-  let right = matrix[0].length - 1;
+  const result: number[] = [];
+  let top: number = 0;
+  let bottom: number = matrix.length - 1;
+  let left: number = 0;
+  let right: number = matrix[0].length - 1;
 
   while (top <= bottom && left <= right) {
     for (let i = left; i <= right; i++) {
