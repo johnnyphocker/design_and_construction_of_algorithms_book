@@ -1,2 +1,0 @@
-# design_and_construction_of_algorithms_book
-init
