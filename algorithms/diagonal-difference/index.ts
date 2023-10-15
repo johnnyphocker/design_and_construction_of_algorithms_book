@@ -1,4 +1,4 @@
-const diagonal_difference = (matrix: number[][]): number => {
+exports.diagonal_difference = (matrix: number[][]): number => {
   const n: number = matrix.length;
   let left_diagonal_sum: number = 0;
   let right_diagonal_sum: number = 0;
